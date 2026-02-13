@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sustainable Kilo Works · About us</title>
+    <link rel="stylesheet" href="about.css">
+    <!-- Google Font, Font Awesome, THREE.js -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <!-- AOS Scroll -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+ 
+</head>
+<body>
+
+    <!-- 3D ANIMATED BACKGROUND (floating red orbs) -->
+    <div id="canvas-container"></div>
+
+    <!-- MODERN NAVBAR -->
+    <nav class="navbar-modern" id="modernNav">
+        <div class="nav-logo">
+            <i class="fas fa-cubes"></i>
+            <div class="logo-text">Sustainable <span>Kilo</span></div>
+        </div>
+        <div class="nav-links-modern" id="navLinks">
+             <a href="index.html" class="nav-link-item"><i class="fas fa-home"></i> Home</a>
+            <a href="about.html" class="nav-link-item"><i class="fas fa-leaf"></i> About</a>
+            <a href="service.html" class="nav-link-item"><i class="fas fa-cog"></i> Service</a>
+            <a href="product.html" class="nav-link-item"><i class="fas fa-box"></i> Product</a>
+            <a href="contact.html" class="nav-link-item"><i class="fas fa-envelope"></i> Contact</a>
+        </div>
+        <a href="contact.html" class="nav-cta"><i class="fas fa-feather-alt"></i> Get started</a>
+        <div class="menu-toggle" id="menuToggle">
+            <i class="fas fa-bars"></i>
+        </div>
+    </nav>
+
+    <!-- MAIN CONTENT – FULL ABOUT PAGE -->
+    <div class="content">
+
+        <!-- ===== ABOUT HERO / WHO WE ARE ===== -->
+        <section id="about" style="padding-top: 20px;" data-aos="fade-up">
+            <div style="display: flex; align-items: center; flex-wrap: wrap; gap: 50px;">
+                <div style="flex: 1 1 350px;">
+                    <div style="background: rgba(255,59,74,0.15); padding: 10px 28px; border-radius: 60px; border:1px solid #FF5E6E; display: inline-block; margin-bottom: 24px;">
+                        <i class="fas fa-cube" style="color: var(--brand-red);"></i> Who We Are
+                    </div>
+                    <h1 style="font-size: 4rem; font-weight: 900; line-height: 1.05; letter-spacing: -3px; margin-bottom: 24px;">
+                        About <span style="color: var(--brand-red); text-shadow: 0 0 18px #FF3B4A;">Sustainable</span> Kilo Works
+                    </h1>
+                    <p style="font-size: 1.3rem; color: rgba(255,255,255,0.9); margin-bottom: 24px; max-width: 650px;">
+                        Sustainable Kilo Works is a modern technology company built on a simple belief: <strong style="color:#FFBEC2;">secure and innovative tools should be affordable for everyone.</strong> We combine advanced blockchain technology with an easy-to-use cloud platform to help users create, store, and access their notes safely from anywhere.
+                    </p>
+                    <div style="display: flex; gap: 24px; margin-top: 32px;">
+                        <a href="#mission" class="btn"><i class="fas fa-arrow-right"></i> Our mission</a>
+                        <a href="#values" class="btn btn-outline"><i class="fas fa-heart"></i> Our values</a>
+                    </div>
+                </div>
+                <div style="flex: 1 1 300px; display: flex; justify-content: center;">
+                    <div style="background: rgba(255,59,74,0.08); padding: 30px; border-radius: 60px; border: 2px dashed #FF3B4A; backdrop-filter: blur(12px); transform: rotate(2deg);">
+                        <i class="fas fa-shield-halved" style="font-size: 5rem; color: #FF3B4A; text-shadow: 0 0 40px #FF3B4A;"></i>
+                        <div style="display: flex; gap: 16px; margin-top: 24px;">
+                            <i class="fas fa-check-circle" style="color: #FF3B4A;"></i> <span>blockchain anchored</span>
+                            <i class="fas fa-check-circle" style="color: #FF3B4A;"></i> <span>budget-first</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== OUR MISSION ===== -->
+        <section id="mission" style="padding-top: 120px;" data-aos="fade-up">
+            <div class="glass-card" style="padding: 60px 50px; border-radius: 80px 80px 80px 24px;">
+                <div style="display: flex; flex-wrap: wrap; gap: 40px; align-items: center;">
+                    <div style="flex: 1 1 300px;">
+                        <h2 class="section-title" style="margin-bottom: 16px;"><span>Our Mission</span></h2>
+                        <p style="font-size: 1.4rem; color: rgba(255,255,255,0.95); line-height: 1.5;">
+                            Our mission is to make digital note-taking secure, accessible, and budget-friendly. We aim to remove the complexity and high costs often associated with new technology, allowing users to focus on their ideas without worrying about data security.
+                        </p>
+                        <div style="margin-top: 32px;">
+                            <i class="fas fa-quote-right" style="color: #FF3B4A; font-size: 2rem; opacity: 0.6;"></i>
+                        </div>
+                    </div>
+                    <div style="flex: 0 0 180px; text-align: center;">
+                        <div style="background: rgba(255,59,74,0.2); border-radius: 60px; padding: 30px;">
+                            <i class="fas fa-bullseye" style="font-size: 4rem; color: #FF3B4A;"></i>
+                            <p style="margin-top: 16px; font-weight: 700;">secure · accessible · affordable</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== WHAT MAKES US DIFFERENT ===== -->
+        <section style="padding-top: 100px;" data-aos="fade-up">
+            <div style="display: flex; flex-wrap: wrap; gap: 50px; align-items: center;">
+                <div style="flex: 1 1 350px;">
+                    <h2 class="section-title"><span>What Makes Us</span> Different</h2>
+                    <p style="font-size: 1.3rem; color: rgba(255,255,255,0.9); line-height: 1.6;">
+                        At Sustainable Kilo Works, we blend innovation with kindness. Our blockchain-powered platform protects your notes from tampering while our friendly interface ensures a smooth experience for users of all skill levels. We focus on <strong style="color:#FFBEC2;">value, trust, and simplicity</strong>, making powerful technology practical for everyday use.
+                    </p>
+                    <div style="margin-top: 40px; display: flex; gap: 20px; flex-wrap: wrap;">
+                        <span style="background: rgba(255,59,74,0.2); padding: 12px 28px; border-radius: 60px;"><i class="fas fa-hand-holding-heart" style="color:#FF3B4A;"></i> innovation with kindness</span>
+                        <span style="background: rgba(255,59,74,0.2); padding: 12px 28px; border-radius: 60px;"><i class="fas fa-shield" style="color:#FF3B4A;"></i> tamper-proof</span>
+                    </div>
+                </div>
+                <div style="flex: 1 1 300px;">
+                    <div style="background: linear-gradient(145deg, #FF3B4A20, #D0313A20); border-radius: 60px; padding: 40px; border: 1px solid #FF5E6E;">
+                        <i class="fas fa-cubes" style="font-size: 3rem; color: #FF3B4A;"></i>
+                        <i class="fas fa-plus" style="margin: 0 20px; color: #FF3B4A;"></i>
+                        <i class="fas fa-face-smile" style="font-size: 3rem; color: #FF3B4A;"></i>
+                        <p style="margin-top: 24px; font-size: 1.2rem; font-style: italic;">blockchain + kindness = Sustainable Kilo</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== OUR VALUES (4 pillars) ===== -->
+        <section id="values" style="padding-top: 100px;" data-aos="fade-up">
+            <h2 class="section-title" style="text-align: center;"><span>Our Values</span></h2>
+            <p style="text-align: center; font-size: 1.2rem; color: rgba(255,255,255,0.8); margin-bottom: 40px;">Four pillars that guide everything we build</p>
+            <div class="values-grid">
+                <div class="value-item">
+                    <div class="value-icon">🔴</div>
+                    <h3 style="font-size: 1.8rem; margin-bottom: 12px;">Security First</h3>
+                    <p style="color: rgba(255,255,255,0.8);">We protect user data using reliable blockchain technology — every note anchored, every hash verified.</p>
+                </div>
+                <div class="value-item">
+                    <div class="value-icon">💰</div>
+                    <h3 style="font-size: 1.8rem; margin-bottom: 12px;">Affordability</h3>
+                    <p style="color: rgba(255,255,255,0.8);">Innovation without financial burden. Free tier, fair pricing, no hidden costs.</p>
+                </div>
+                <div class="value-item">
+                    <div class="value-icon">🔍</div>
+                    <h3 style="font-size: 1.8rem; margin-bottom: 12px;">Transparency</h3>
+                    <p style="color: rgba(255,255,255,0.8);">Clear and honest data practices. Open about how we store, secure, and never sell your info.</p>
+                </div>
+                <div class="value-item">
+                    <div class="value-icon">🎯</div>
+                    <h3 style="font-size: 1.8rem; margin-bottom: 12px;">User-Centered Design</h3>
+                    <p style="color: rgba(255,255,255,0.8);">Built with real users in mind — intuitive, friendly, and accessible for beginners and pros.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== MEET THE TEAM ===== -->
+        <section id="team" style="padding-top: 120px;" data-aos="fade-up">
+            <div style="text-align: center;">
+                <h2 class="section-title"><span>Meet the Team</span></h2>
+                <p style="font-size: 1.3rem; color: rgba(255,255,255,0.9); max-width: 700px; margin: 0 auto 40px;">
+                    We are a dedicated group of developers, designers, and innovators who are passionate about creating secure digital solutions. Our team works with curiosity, care, and creativity to ensure every product reflects our commitment to accessibility and trust.
+                </p>
+            </div>
+            <div class="team-grid">
+                <div class="team-member" data-aos="zoom-in" data-aos-delay="100">
+                    <div class="team-avatar"><i class="fas fa-user-astronaut"></i></div>
+                    <h3 style="font-size: 2rem; color: #FF8A92;">Maya Chen</h3>
+                    <p style="font-weight: 600; color: #ddd;">co-founder · blockchain</p>
+                    <p style="margin-top: 16px; color: #FFBEC2;">"secure notes are a human right."</p>
+                    <div style="margin-top: 20px; display: flex; justify-content: center; gap: 16px;">
+                        <i class="fab fa-linkedin" style="color:#FF3B4A;"></i>
+                        <i class="fab fa-github" style="color:#FF3B4A;"></i>
+                    </div>
+                </div>
+                <div class="team-member" data-aos="zoom-in" data-aos-delay="200">
+                    <div class="team-avatar"><i class="fas fa-user-tie"></i></div>
+                    <h3 style="font-size: 2rem; color: #FF8A92;">Leo Park</h3>
+                    <p style="font-weight: 600; color: #ddd;">UX & kindness</p>
+                    <p style="margin-top: 16px; color: #FFBEC2;">"tech should hug you back."</p>
+                    <div style="margin-top: 20px; display: flex; justify-content: center; gap: 16px;">
+                        <i class="fab fa-linkedin" style="color:#FF3B4A;"></i>
+                        <i class="fab fa-dribbble" style="color:#FF3B4A;"></i>
+                    </div>
+                </div>
+                <div class="team-member" data-aos="zoom-in" data-aos-delay="300">
+                    <div class="team-avatar"><i class="fas fa-user-ninja"></i></div>
+                    <h3 style="font-size: 2rem; color: #FF8A92;">Zara Diallo</h3>
+                    <p style="font-weight: 600; color: #ddd;">security & sustainability</p>
+                    <p style="margin-top: 16px; color: #FFBEC2;">"green blockchain is possible."</p>
+                    <div style="margin-top: 20px; display: flex; justify-content: center; gap: 16px;">
+                        <i class="fab fa-linkedin" style="color:#FF3B4A;"></i>
+                        <i class="fab fa-github" style="color:#FF3B4A;"></i>
+                    </div>
+                </div>
+                <div class="team-member" data-aos="zoom-in" data-aos-delay="400">
+                    <div class="team-avatar"><i class="fas fa-user-secret"></i></div>
+                    <h3 style="font-size: 2rem; color: #FF8A92;">Alex Rivera</h3>
+                    <p style="font-weight: 600; color: #ddd;">cloud architecture</p>
+                    <p style="margin-top: 16px; color: #FFBEC2;">"99.99% uptime, 100% open."</p>
+                    <div style="margin-top: 20px; display: flex; justify-content: center; gap: 16px;">
+                        <i class="fab fa-linkedin" style="color:#FF3B4A;"></i>
+                        <i class="fab fa-twitter" style="color:#FF3B4A;"></i>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== JOIN OUR JOURNEY ===== -->
+        <section id="join" style="padding: 120px 0 40px;" data-aos="zoom-in">
+            <div style="background: var(--red-gradient); border-radius: 100px; padding: 80px 50px; text-align: center; box-shadow: 0 30px 70px rgba(255,59,74,0.5); border: 1px solid rgba(255,255,255,0.3);">
+                <h2 style="font-size: 3.6rem; font-weight: 900; color: white; letter-spacing: -2px; line-height: 1.1;">
+                    Join Our Journey
+                </h2>
+                <p style="font-size: 1.6rem; margin: 30px auto; color: rgba(255,255,255,0.95); max-width: 800px;">
+                    Sustainable Kilo Works is more than a note-taking platform — it’s a step toward a smarter, safer digital future. Join us and experience secure note-taking designed for modern needs and real budgets.
+                </p>
+                <div style="display: flex; gap: 24px; justify-content: center; flex-wrap: wrap; margin-top: 48px;">
+                    <a href="product.html" class="btn" style="background: white; color: var(--brand-red); padding: 20px 56px; font-size: 1.4rem; box-shadow: 0 0 40px white;"><i class="fas fa-feather-alt"></i> Get Started with Sustainable Kilo Works</a>
+                </div>
+                <p style="margin-top: 40px; color: #FFD5D8; font-size: 1.2rem;">
+                    <i class="fas fa-check-circle"></i> Free forever plan · No credit card · 30-day premium trial
+                </p>
+            </div>
+        </section>
+
+        <!-- ===== CONTACT & PRIVACY (footer sections) ===== -->
+        <section id="contact" style="padding-top:100px; display: flex; flex-wrap: wrap; gap: 36px;" data-aos="fade-up">
+            <div class="glass-card" style="flex:1 1 350px; padding: 48px 40px;" id="contact-form">
+                <h2 style="font-size: 2.2rem; margin-bottom: 12px;"><i class="fas fa-paper-plane" style="color:var(--brand-red);"></i> say hello</h2>
+                <p style="margin-bottom: 36px; color: rgba(255,255,255,0.8);">we reply within an hour – eager & kind.</p>
+                <form>
+                    <input type="text" placeholder="your name" style="width:100%; padding:18px 24px; background:rgba(15,15,25,0.8); border:1px solid #FF5E6E; border-radius:60px; margin-bottom:20px; color:white;">
+                    <input type="email" placeholder="your email" style="width:100%; padding:18px 24px; background:rgba(15,15,25,0.8); border:1px solid #FF5E6E; border-radius:60px; margin-bottom:20px; color:white;">
+                    <textarea rows="3" placeholder="how can we help?" style="width:100%; padding:18px 24px; background:rgba(15,15,25,0.8); border:1px solid #FF5E6E; border-radius:30px; margin-bottom:20px; color:white;"></textarea>
+                    <button class="btn" style="width:100%;"><i class="fas fa-heart"></i> send warm message</button>
+                </form>
+                <div style="display: flex; justify-content: space-between; margin-top: 32px; color: #FFBEC2;">
+                    <span><i class="fas fa-at"></i> hello@kilo.works</span>
+                    <span><i class="fas fa-phone"></i> +1 (800) 456-7890</span>
+                </div>
+            </div>
+            <div class="glass-card" style="flex:1 1 350px; padding: 48px 40px;" id="privacy">
+                <h2 style="font-size: 2.2rem; margin-bottom: 12px;"><i class="fas fa-shield-halved" style="color:var(--brand-red);"></i> anchored privacy</h2>
+                <p style="margin-bottom: 24px; color: #ffe6e8;">transparency you can verify on-chain.</p>
+                <ul style="list-style: none;">
+                    <li style="margin-bottom: 22px; display: flex; gap: 16px;"><i class="fas fa-circle-check" style="color: #FF3B4A; font-size: 1.4rem;"></i> <span><strong>blockchain hash</strong> — every note timestamped.</span></li>
+                    <li style="margin-bottom: 22px; display: flex; gap: 16px;"><i class="fas fa-circle-check" style="color: #FF3B4A; font-size: 1.4rem;"></i> <span><strong>no third parties</strong> — we never sell data.</span></li>
+                    <li style="margin-bottom: 22px; display: flex; gap: 16px;"><i class="fas fa-circle-check" style="color: #FF3B4A; font-size: 1.4rem;"></i> <span><strong>AES-256 cloud</strong> + daily audits.</span></li>
+                    <li style="margin-bottom: 22px; display: flex; gap: 16px;"><i class="fas fa-circle-check" style="color: #FF3B4A; font-size: 1.4rem;"></i> <span><strong>transparency report</strong> published quarterly.</span></li>
+                </ul>
+                <div style="background: rgba(255,59,74,0.15); padding: 22px; border-radius: 32px; margin-top: 20px;">
+                    <i class="fas fa-lock"></i> full policy: kilo.works/privacy
+                </div>
+            </div>
+        </section>
+
+        <!-- FOOTER -->
+        <footer style="margin-top: 80px; padding: 40px 0; background: rgba(6,6,12,0.9); backdrop-filter: blur(8px); border-top: 1px solid rgba(255,59,74,0.4); border-radius: 40px 40px 0 0;">
+            <div class="footer-content">
+                <div style="display: flex; gap: 20px; align-items: center;">
+                    <i class="fas fa-cube" style="color: #FF5E6E; font-size: 2rem;"></i>
+                    <span>© 2025 Sustainable Kilo Works · About us — security meets kindness</span>
+                </div>
+                <div>
+                    <a href="service.html" style="color: #FFADB5; margin-right: 24px;">privacy</a>
+                    <a href="contact.html" style="color: #FFADB5; margin-right: 24px;">contact</a>
+                    <a href="#"><i class="fab fa-twitter" style="color:#FFADB5;"></i></a>
+                    <a href="#"><i class="fab fa-github" style="color:#FFADB5; margin-left: 16px;"></i></a>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <!-- THREE.JS BACKGROUND (floating red orbs) -->
+    <script type="importmap">
+        { "imports": { "three": "https://unpkg.com/three@0.128.0/build/three.module.js" } }
+    </script>
+    <script type="module">
+        import * as THREE from 'three';
+        const scene = new THREE.Scene();
+        scene.background = new THREE.Color(0x0a0a0e);
+        const camera = new THREE.PerspectiveCamera(45, window.innerWidth / window.innerHeight, 0.1, 1000);
+        camera.position.set(0, 0, 20);
+        const renderer = new THREE.WebGLRenderer({ antialias: true, alpha: false });
+        renderer.setSize(window.innerWidth, window.innerHeight);
+        renderer.setPixelRatio(window.devicePixelRatio);
+        document.getElementById('canvas-container').appendChild(renderer.domElement);
+
+        const geometry = new THREE.SphereGeometry(0.22, 24, 16);
+        const material = new THREE.MeshStandardMaterial({ color: 0xff3b4a, emissive: 0x3a0f12, roughness: 0.25, metalness: 0.2, transparent: true, opacity: 0.65 });
+        const spheres = [];
+        for (let i = 0; i < 28; i++) {
+            const sphere = new THREE.Mesh(geometry, material.clone());
+            sphere.position.x = (Math.random() - 0.5) * 80;
+            sphere.position.y = (Math.random() - 0.5) * 60;
+            sphere.position.z = (Math.random() - 0.5) * 70 - 20;
+            sphere.material.color.setHSL(0.02, 0.9, 0.35 + Math.random()*0.2);
+            sphere.material.emissive.setHSL(0.02, 0.8, 0.08);
+            scene.add(sphere);
+            spheres.push(sphere);
+        }
+
+        const particleGeo = new THREE.BufferGeometry();
+        const particleCount = 1200;
+        const posArray = new Float32Array(particleCount * 3);
+        for(let i=0; i<particleCount*3; i+=3) {
+            posArray[i] = (Math.random() - 0.5) * 160;
+            posArray[i+1] = (Math.random() - 0.5) * 120;
+            posArray[i+2] = (Math.random() - 0.5) * 120 - 30;
+        }
+        particleGeo.setAttribute('position', new THREE.BufferAttribute(posArray, 3));
+        const particleMat = new THREE.PointsMaterial({ color: 0xff6a7a, size: 0.13, transparent: true, opacity: 0.25 });
+        const particles = new THREE.Points(particleGeo, particleMat);
+        scene.add(particles);
+
+        const light = new THREE.PointLight(0xff5e6e, 1.2);
+        light.position.set(10, 10, 20);
+        scene.add(light);
+        scene.add(new THREE.AmbientLight(0x404060));
+
+        function animate() {
+            requestAnimationFrame(animate);
+            spheres.forEach((sp, idx) => {
+                sp.position.x += Math.sin(Date.now() * 0.0004 + idx) * 0.0018;
+                sp.position.y += Math.cos(Date.now() * 0.0005 + idx) * 0.0018;
+            });
+            particles.rotation.y += 0.00015;
+            renderer.render(scene, camera);
+        }
+        animate();
+
+        window.addEventListener('resize', () => {
+            camera.aspect = window.innerWidth / window.innerHeight;
+            camera.updateProjectionMatrix();
+            renderer.setSize(window.innerWidth, window.innerHeight);
+        });
+    </script>
+
+    <!-- AOS & MOBILE TOGGLE -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({ once: false, mirror: true, duration: 800, easing: 'ease-out-cubic' });
+
+        const navbar = document.getElementById('modernNav');
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 30) navbar.classList.add('scrolled');
+            else navbar.classList.remove('scrolled');
+        });
+
+        const toggleBtn = document.getElementById('menuToggle');
+        const navLinks = document.getElementById('navLinks');
+        toggleBtn.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+            const icon = toggleBtn.querySelector('i');
+            icon.classList.toggle('fa-bars');
+            icon.classList.toggle('fa-times');
+        });
+
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if(target) {
+                    target.scrollIntoView({ behavior: 'smooth' });
+                    if (window.innerWidth <= 1000) navLinks.classList.remove('active');
+                    toggleBtn.querySelector('i').classList.add('fa-bars');
+                    toggleBtn.querySelector('i').classList.remove('fa-times');
+                }
+            });
+        });
+    </script>
+</body>
+</html>
